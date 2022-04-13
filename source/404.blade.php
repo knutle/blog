@@ -1,3 +1,7 @@
+---
+permalink: 404.html
+---
+
 @extends('_layouts.main')
 
 @section('body')
@@ -9,7 +13,7 @@
         <hr class="block w-full max-w-sm mx-auto border my-8">
 
         <p class="text-xl">
-            Need to update this page? See the <a title="404 Page Documentation" href="https://jigsaw.tighten.co/docs/custom-404-page/">Jigsaw documentation</a>.
+            Maybe try the search or check the list of <a title="Blog posts" href="/blog">blog posts?</a>
         </p>
     </div>
 @endsection
