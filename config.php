@@ -6,13 +6,13 @@ return [
     'baseUrl' => 'https://kdev.test',
     'production' => false,
     'siteName' => 'knutle.dev',
-    'siteDescription' => 'knutle.dev blog',
-    'siteAuthor' => 'Knut Leborg',
+    'siteDescription' => 'knut\'s dev blog',
+    'siteAuthor' => 'Knut',
 
     // collections
     'collections' => [
         'posts' => [
-            'author' => 'Knut Leborg', // Default author, if not provided in a post
+            'author' => 'Knut', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => 'blog/{filename}',
         ],
