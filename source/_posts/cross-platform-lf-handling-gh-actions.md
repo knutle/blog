@@ -4,6 +4,7 @@ section: content
 title: Cross-platform LF issues with snapshot testing in GitHub Actions
 date: 2022-04-13
 description: Sometimes there are some issues with inconsistent line endings from local environment to GitHub Actions
+categories: [github]
 ---
 
 Sometimes there are some issues with inconsistent line endings from local environment to GitHub Actions.
