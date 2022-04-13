@@ -2,7 +2,7 @@
 extends: _layouts.post
 section: content
 title: Configuring cross-targeting of NuGet packages
-date: 2022-04-12
+date: 2022-04-11
 description: Useful when a package needs to support multiple dotnet versions
 categories: [c-sharp, dotnet]
 ---

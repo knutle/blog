@@ -2,7 +2,7 @@
 extends: _layouts.post
 section: content
 title: Cross-platform LF issues with snapshot testing in GitHub Actions
-date: 2022-04-13
+date: 2022-04-12
 description: Sometimes there are some issues with inconsistent line endings from local environment to GitHub Actions
 categories: [github]
 ---
