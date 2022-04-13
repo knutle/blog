@@ -23,19 +23,19 @@ Sometimes the repository state is bugged because some files were committed befor
 Add all your changed files back and normalize the line endings.
 
 ```bash
-$ git add --renormalize .
+git add --renormalize .
 ```
 
 Show the rewritten, normalized files.
 
 ```bash
-$ git status
+git status
 ```
 
 Commit the changes to your repository.
 
 ```bash
-$ git commit -m "Normalize all the line endings"
+git commit -m "Normalize all the line endings"
 ```
 
 (extracted from [https://docs.github.com/en/github/getting-started-with-github/configuring-git-to-handle-line-endings#refreshing-a-repository-after-changing-line-endings](https://docs.github.com/en/github/getting-started-with-github/configuring-git-to-handle-line-endings#refreshing-a-repository-after-changing-line-endings))
