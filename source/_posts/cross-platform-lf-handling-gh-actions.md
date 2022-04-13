@@ -20,17 +20,21 @@ This also requires the local environment to have the same settings. PHPStorm wil
 
 Sometimes the repository state is bugged because some files were committed before autocrlf and eol settings were applied, then we need to force an update of the already committed files:
 
-```
 Add all your changed files back and normalize the line endings.
 
+```bash
 $ git add --renormalize .
+```
 
 Show the rewritten, normalized files.
 
+```bash
 $ git status
+```
 
 Commit the changes to your repository.
 
+```bash
 $ git commit -m "Normalize all the line endings"
 ```
 
